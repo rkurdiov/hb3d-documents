@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Merkwürdigkeiten Wien 1823</title>
+            <title type="sub">digitale Version</title>
+            <respStmt>
+               <resp>TEI Kodierung</resp>
+               <persName>Richard Kurdiovsky</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Merkwürdigkeiten der Haupt und Residenz-Stadt Wien und ihrer nächsten Umgebungen</title>
+                  <author>
+                     <persName ref="pe1">Franz Heinrich Böckh</persName>
+                  </author>
+                  <imprint>
+                     <publisher>
+                        <orgName>B Ph. Bauer</orgName>
+                     </publisher>
+                     <pubPlace>Wien</pubPlace>
+                     <date>1823</date>
+                  </imprint>
+                  <biblScope unit="page">464</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>[...]im gewöhnlichen Sprachgebrauche nennt man dieses
+         Gebäude den Schweizer-Hof (weil ehemals die Schwei-
+         zer Garde, welche nun durch die Trabanten-leib-Garde er-
+         setzt ist, ihren Posten hatte); auch manches Mahl die alte 
+         Burg. [...]</p>
+      </body>
+  </text>
+</TEI>
