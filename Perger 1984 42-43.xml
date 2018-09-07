@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als Versammlungs- und
+               Repräsentationsbereich</title>
+            <title type="sub">digital edition</title>
+            <respStmt>
+               <resp>conversion to TEI</resp>
+               <persName>
+                  <name type="surname">Kurdiovsky</name>
+                  <name type="foretname">Richard</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Richard Perger (ed.), Wolfgang Kirchhofer. Erinnerungen eines Wiener
+                     Bürgermeisters 1519-1522, Vienna 1984, 42-43</bibl>
+                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
+                     Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione und
+                     Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
+                     [ed.], Denkschriften der philosophisch-historischen Klasse 444;
+                     Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
+                     Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
+                     zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
+                     esp. 80</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
+               den 1520er Jahren als Versammlungs- und Repräsentationsbereich während der Beratungen
+               des <persName type="historical"><roleName>Wiener Bürgermeisters</roleName>
+                  <forename>Wolfganng</forename>
+                  <surname>Kirchhofer</surname></persName> und des Stadtrates über das Testament
+                  <persName type="historical"><forename>Maximilians</forename> I.</persName> im
+               "gruen stüblein".</p>
+            <dateline>
+               <date type="begin">1520.01.01</date>
+               <date type="end">1529.12.31</date>
+            </dateline>
+         </div>
+      </front>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

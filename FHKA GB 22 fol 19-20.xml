@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
+               Verwaltungssitz</title>
+            <title type="sub">digital edition</title>
+            <respStmt>
+               <resp>conversion to TEI</resp>
+               <persName>
+                  <name type="surname">Kurdiovsky</name>
+                  <name type="foretname">Richard</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
+                     Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione und
+                     Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
+                     [ed.], Denkschriften der philosophisch-historischen Klasse 444;
+                     Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
+                     Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
+                     zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
+                     esp. 80</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement>
+                  <repository>AT-OeStA</repository>
+                  <idno>FHKA AHK GB 22 fol. 19-20</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author/>
+                     <title>Vizedom- und Exempt-Ämter-Buch</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate notBefore="1524-01-01">1524</origDate>
+                     <origDate notAfter="1525-12-31">1525</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
+               den 1520er Jahren als Verwaltungssitz für die "Rait Camer" (Buchhaltung [fol. 19])
+               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
+            <dateline>
+               <date type="begin">1520.01.01</date>
+               <date type="end">1529.12.31</date>
+            </dateline>
+         </div>
+      </front>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

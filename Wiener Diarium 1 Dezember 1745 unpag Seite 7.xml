@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Wiener Diarium 1 Dezember 1745</title>
+            <title type="sub">digitale Version</title>
+            <respStmt>
+               <resp>TEI Kodierung</resp>
+               <persName>Richard Kurdiovsky</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Wiener Diarium 1. Dezember 1745</title>
+                  <imprint>
+                     <pubPlace>Wien</pubPlace>
+                     <date>1. Dezember 1745</date>
+                  </imprint>
+                  <biblScope unit="page">7</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>[...] Dito Vor-mittags ist die Kaiserl. Schwei- tzer-garde in ihrer gewöhnlichen
+            Schweitzer- Kleidung von gelb- und schwartzen Taffet, dann schwartz-Sammeten Hüten mit
+            gelben Federn darauf, nach der Kaiserl. Liberey. zum erstenmal aus ihrem Quartier in dem
+            Hochgrafl. Kaunitzischen Hause auf der Freyung nach der Kaiserl. Burg in schönster
+            Ordnung mit klin- gendem Spiel gezogen, und hat die ihnen ausgezeichnete Posten
+            besetzet. [...] </p>
+      </body>
+   </text>
+</TEI>

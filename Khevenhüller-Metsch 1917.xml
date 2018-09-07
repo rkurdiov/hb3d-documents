@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Tagebuch Khevenhüller-Metsch</title>
+            <title type="sub">1764-1767</title>
+            <respStmt>
+               <resp>TEI Kodierung</resp>
+               <persName>Richard Kurdiovsky</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title type="main">Aus der Zeit Maria Theresias: Tagebuch des Fürsten Johann Josef
+                     Khevenhüller-Metsch, kaiserlichen Obersthofmeisters</title>
+                  <title type="sub">1764-1767</title>
+                  <editor>Rudolf Graf Khevenhüller-Metsch</editor>
+                  <editor>Hanns Schlitter</editor>
+                  <imprint>
+                     <publisher>
+                        <orgName>Verlag Adolf Holzhausen</orgName>
+                        <addName>Wien</addName>
+                     </publisher>
+                     <pubPlace>Wien</pubPlace>
+                     <date>1917</date>
+                  </imprint>
+                  <biblScope unit="page">249</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>[…] Mit Anfang dises Monaths wurde die neue Garde zu Fuß en fonction gesetzet, welche
+            mann anstatt der abgedanckten Schweitzer sous le nom de gardes du palais aufgerichtet
+            und von lauter Unter­ Officieren componiret bat. Die <persName type="historical"
+                  ><roleName>Kaiserin</roleName></persName> ware sehr hart zu bemelter Abdanckung
+            gekommen, indeme sie der sicher-und exacten Bedienung der Schweitzer so ville Jahr
+            gewohnet gewesen; allein mann fande politice und ministerialiter unanständig, ihre mit
+            dem verstorbenen <persName><roleName>Kaiser</roleName></persName> auf dem lothringischen
+            Fuß errichtete Capitulation zu er- neueren als worinnen verschiedenes von ihren disem
+            lezteren Hauß (wie es in der That sich befindet) geleisteten Diensten gesprochen wird so
+            sich bekannter Massen auf das durchlauchtigste Erzhaus nicht schicket; dahero mann auch
+            verschiedene Tentativa indirecte gemacht, um die anstössige Stellen der Capitulation
+            abzuändern, allein da die Cantonen a littera scripta nicht abzubringen gewesen, sich
+            gleichsamm gezwungen gesehen hatte, all fernere Handlungen dißfahls bello modo
+            abzubrechen. […] </p>
+         <dateline>
+            <date notBefore="1767-07-01">Anfang Juli 1767</date>
+            <date notAfter="1767-07-01">Anfang Juli 1767</date>
+         </dateline>
+      </body>
+   </text>
+</TEI>

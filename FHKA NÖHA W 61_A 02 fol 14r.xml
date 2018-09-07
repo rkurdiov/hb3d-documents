@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Sanierungsarbeiten am Südwesttrakt, an Süd- und Westturm im
+               Frühling/Sommer 1534 </title>
+            <title type="sub">digital edition</title>
+            <!-- Eingfügt DS am 7.9.18 -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName>xxx</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Edited by</resp>
+               <persName>Renate Holzschuh-Hofer</persName>
+            </respStmt>
+            <!-- Ende einfügung -->
+            <respStmt>
+               <resp>EncBurgbautenoded following the TEI Guidlines by</resp>
+               <persName xml:id="rk">
+                  <name type="surname">Kurdiovsky</name>
+                  <name type="foretname">Richard</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- Änderung 7.9.2018 -->
+            <p>yet published</p>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in:
+                     Herbert Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione
+                     und Etablierung als Kaiserresidenz (= Österreichische Akademie der
+                     Wissenschaften [ed.], Denkschriften der philosophisch-historischen Klasse 444;
+                     Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
+                     Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
+                     zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
+                     esp. 87</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement>
+                  <repository>AT-OeStA</repository>
+                  <idno>AT-OeStA/FHKA AHK NÖHA W 61/A/2/1</idno>
+                  <msName>Wien, kaiserlicher Hof: Burgbauten</msName>
+               </msIdentifier>
+               <msContents>
+                  <!-- TODO mailing liste nachfragen - Mechanismus, um klar zu machen, dass das nur ein Ausschnitt ist.  -->
+                  <msItem>
+                     <locus>14</locus>
+                     <title type="supplied" resp="#rk">Sanierungsarbeiten am Südwesttrakt, an Süd- und Westturm im Frühling/Sommer 1534</title>
+                     <docDate>1534</docDate>
+                  </msItem>
+               </msContents>
+               <history>
+                  <!-- Beschreibung, was diese beiden Zahlen bedeuten -->
+                  <origin notBefore="1526-01-01" notAfter="1569-12-31"></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p ana="#bmn1">Sanierungsarbeiten am <rs type="Hofburg" subtype="Südwesttrakt" ref="bauteil:148"
+               >Südwesttrakt</rs>, am <rs type="Hofburg" subtype="Südturm" ref="bauteil:325">Süd-</rs>
+               und am <rs type="Geometrieteil" ref="bauteil:323">Westturm</rs> im Frühling/
+               Sommer 1534: Behebung von Setzungsschäden (aufgrund von Minengängen der Belagerung
+               von 1529) durch Unterfangung der tragenden Mauern, der Kellerpfeiler und der <rs
+                  type="Hofburg" subtype="Südwestzwingermauer" ref="bauteil:683">Zwingermauer</rs>,
+               Abtragung von Gebäuden auf der Zwingermauer und Adaptierung der königlichen
+               Zimmer.</p>
+            
+         </div>
+      </front>
+      <body>
+         <pb n="fol. 14r"/>
+         <p>Damit man Zu khunfftigen Zeytten an denen ortten khainer gefferlichkhayt Zu besorgen</p>
+      </body>
+      <back>
+        
+         <listEvent type="Baumaßnahmen">
+            <event type="Sanierung" xml:id="bmn1" where="bauteil:148 bauteil:325 bauteil:323 bauteil:683" sameAs="http://www">
+               <head>Sanierungsarbeiten am Südwesttrakt Frühling und Sommer 1534</head>
+               <desc>
+                     <date type="begin">1534.04.01</date>
+                     <date type="end">1534.07.31</date>
+               </desc>
+            </event>
+         </listEvent>
+      </back>
+   </text>
+</TEI>
