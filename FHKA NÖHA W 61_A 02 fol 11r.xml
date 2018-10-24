@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Verwaltungssitz</title>
+            <title type="main">Bautätigkeiten im Juni 1534</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>conversion to TEI</resp>
@@ -30,7 +29,7 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 87</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -39,18 +38,18 @@
                <msIdentifier>
                   <settlement>Vienna</settlement>
                   <repository>AT-OeStA</repository>
-                  <idno>FHKA AHK GB 22 fol. 19-20</idno>
+                  <idno>AT-OeStA/FHKA AHK NÖHA W 61/A/2/1 fol. 11r</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <author/>
-                     <title>Vizedom- und Exempt-Ämter-Buch</title>
+                     <title>Wien, kaiserlicher Hof: Burgbauten</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate notBefore="1524-01-01">1524</origDate>
-                     <origDate notAfter="1525-12-31">1525</origDate>
+                     <origDate notBefore="1526-01-01">1526</origDate>
+                     <origDate notAfter="1569-12-31">1569</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -60,12 +59,14 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
-               den 1520er Jahren als Verwaltungssitz für die "Rait Camer" (Buchhaltung [fol. 19])
-               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
+            <p>Bautätigkeiten im Juni 1534: Einrichtung des Gärtnerzimmers, Einrichtung der
+               Ballhäuser, Pflasterung und Reparatur der <rs type="Hofburg" subtype="Spanier"
+                  ref="449">Burgbastei</rs>, Bau des Rohrbrunnens in der <rs type="Hofburg"
+                  subtype="Schweizerhof" ref="135">Burg</rs>, Errichtung des Irrgartens, Bau des
+               neuen Altans im Burggarten.</p>
             <dateline>
-               <date type="begin">1520.01.01</date>
-               <date type="end">1529.12.31</date>
+               <origDate notBefore="1534-06-01">Juni 1534</origDate>
+               <origDate notAfter="1534-06-30">Juni 1534</origDate>
             </dateline>
          </div>
       </front>

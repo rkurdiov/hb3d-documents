@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Verwaltungssitz</title>
+            <title type="main">Gutachten von Johannes Tscherte von 1544 zum Fußboden des Tanzsaales
+               im Schweizerhof</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>conversion to TEI</resp>
@@ -30,7 +30,7 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 95</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -38,19 +38,19 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OeStA</repository>
-                  <idno>FHKA AHK GB 22 fol. 19-20</idno>
+                  <repository>AT-OEStA</repository>
+                  <idno>FHKA AHK NÖHA W 61/A/2/1 fol. 35r-38v</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <author/>
-                     <title>Vizedom- und Exempt-Ämter-Buch</title>
+                     <title>Wien, kaiserlicher Hof: Burgbauten</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate notBefore="1524-01-01">1524</origDate>
-                     <origDate notAfter="1525-12-31">1525</origDate>
+                     <origDate notBefore="1526-01-01">1526</origDate>
+                     <origDate notAfter="1569-12-31">1569</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -60,17 +60,18 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
-               den 1520er Jahren als Verwaltungssitz für die "Rait Camer" (Buchhaltung [fol. 19])
-               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
+            <p>Gutachten von <persName><forename>Johannes</forename>
+                  <surname>Tscherte</surname></persName> von 1544 zum Fußboden des Tanzsaales im
+               <rs ref="135">Schweizerhof</rs> aufgrund der Beschwerde <persName><forename>Ferdinands</forename>
+                  I.></persName> über die Staubbelastung aus der Beschüttung dieses Bodens.</p>
             <dateline>
-               <date type="begin">1520.01.01</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1544-10-01">Oktober 1544</date>
+               <date notAfter="1544-10-31">Oktober 1544</date>
             </dateline>
          </div>
       </front>
       <body>
-         <p/>
+         <p>von wegen des Podn In dem tanntz Saal</p>
       </body>
    </text>
 </TEI>

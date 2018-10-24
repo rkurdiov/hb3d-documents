@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Weiskern 1770</title>
+            <title type="sub">digitale Version</title>
+            <respStmt>
+               <resp>TEI Kodierung</resp>
+               <persName>Richard Kurdiovsky</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title type="main">Beschreibung der k. k. Haupt- und Residenzstadt Wien</title>
+                  <title type="sub">als der dritte Tehil zur österreichischen Topographie</title>
+                  <author>
+                     <persName>Friedrich Wilhelm Weiskern</persName>
+                  </author>
+                  <imprint>
+                     <publisher>
+                        <orgName>Joseph Kurzböck NOe Landschafts- und
+                           Universitätsbuchdrucker</orgName>
+                     </publisher>
+                     <pubPlace>Wien</pubPlace>
+                     <date>1770</date>
+                  </imprint>
+                  <biblScope unit="page">146</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>[...] Der <rs type="Hofburg" subtype="Westturm" ref="323">Thurm gegen das Burgthor</rs>,
+            auf dessen <rs type="Hofburg" subtype="Dach" ref="428">Dache</rs>, zum zeichen, daß hier
+            ehemals ein Wald gestanden, seit A. 1670 ein Jäger, Hund und Hirsch zu sehen war, hat
+            man im April 1753. abgetragen. [...]</p>
+         <dateline>
+            <date notBefore="1753-04-01">April 1753</date>
+            <date notAfter="1753-04-30">April 1753</date>
+         </dateline>
+      </body>
+   </text>
+</TEI>

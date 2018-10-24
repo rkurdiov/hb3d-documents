@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Antrittsaudienz des vezenianischen Botschafters/Gesandten Carlo
+               Contarini in der Hofburg 1524</title>
+            <title type="sub">digital edition</title>
+            <respStmt>
+               <resp>Interpreted by</resp>
+               <persName xml:id="rhh">Renate Holzschuh-Hofer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded follwoing the TEI Guidelines by</resp>
+               <persName>
+                  <name type="surname">Kurdiovsky</name>
+                  <name type="foretname">Richard</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>not yet published</p>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
+                     Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione und
+                     Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
+                     [ed.], Denkschriften der philosophisch-historischen Klasse 444;
+                     Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
+                     Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
+                     zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
+                     esp. 81</bibl>
+                  <bibl> Guglielmo Berchet / Niccolò Barozzi / Marco Allegri (ed.), Diarii di Marino
+                     Sanuto, Venice 1893, tom. 36, column 580-581</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <p>Summario di lo itinerario di sier Carlo Contarini andato orator al Serenissima
+               archiduca di Austria don Fernando principe di Castiglia</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p><persName><roleName>Venezianischer Orator</roleName>
+                  <forename>Carlo</forename>
+                  <surname>Contarini</surname></persName> wird von
+                     <persName><forename>Sigmund</forename> von Dietrichstein</persName> zur Audienz
+               in seinem Quartier abgeholt. In der <rs type="Partonomie" ref="135">Burg</rs>
+               angekommen, gehen beide die Außentreppe hinauf. Beim Saaleingang kommt
+                     <persName><roleName>Erzherzog</roleName>
+                  <forename>Ferdinand</forename></persName> entgegen und reicht zur Begrüßung die
+               Hand. Im Saal sind die Räte des <persName><roleName>Erzherzogs</roleName></persName>
+               versammelt. <persName><forename>Ferdinand</forename></persName> und
+                     <persName><surname>Contarini</surname></persName> setzen sich einander
+               gegenüber auf je eine entsprechend dekorierte Bank.
+                     <persName><surname>Contarini</surname></persName> hält seine Lobrede auf den
+                     <persName><roleName>Erzherzog</roleName></persName>, die nach kurzer Beratung
+               zwischen <persName><forename>Ferdinand</forename></persName> und seinen Räten von
+                     <persName><forename>Johannes</forename>
+                  <surname>Faber</surname></persName> (bzw. Johanes Fabri, eignetlich Johannes
+               Hegerlein, seit 1523 Diplomat und Ratgeber Ferdinands und ab 1524 Koadjutor von
+               Wiener Neustadt, ab 1530 Bischof von Wien) beantwortet wird. Am Ende der Audienz
+               begleitet <persName><forename>Ferdinand</forename></persName> den
+                     <persName><roleName>Orator</roleName></persName> bis zur Treppe.</p>
+            <dateline>
+               <date notBefore="1524-08-14">14. August 1524</date>
+               <date notAfter="1524-08-14">14. August 1524</date>
+            </dateline>
+         </div>
+      </front>
+      <body>
+         <p>A di 14 ditto, di Domenega, da poi disnar, el serenissimo Archiduca mandò missier
+            Sigismondo Lectistener suo consier per esso Orator per condurlo a la sua presentia: e
+            cussi montato a cavallo con tuta la famiglia andoe, et smontati a la corte aseseno le
+            scale, et in capo di esse, zoè a la porta di la sala, vene incontra el serenissimo
+            Archiduca et pigliò l'Orator per la mano facendoli grandissime acoglientie e così a
+            tutti li altri soi, ai qual locò la man. Poi sua signoria andò a seder sopra una banca
+            adornata di tapezerie, e di sopra uno panno alexandrino d'oro. Dinanzi a lui era una
+            banca coperta con una spaliera, et li feze senter esso Orator, dove riposato alquanto
+            rispeto a le scale longe, fato le debite reverentie qual si rechiede a un tanto
+            principe, principiò una oration latina in laude di Soa Serenità per nome di la
+            Illustrissima Singoria nostra. Fu breve et comendata da li circostanti, che era piena la
+            sala; e finita esso Serenissimo Chiamò li sui consierri, che furono Salamancha [Gabriel
+            Salamanca], el suo maistro di caxa, el doctor Faba [Johannes Faber], missier Sigismondo
+            [Sigmund von Dietrichstein] et altri fino al numero di 12, e parlato alquanto insieme,
+            rispose il doctor Faba pul latine, ma non cusì elegante, ringratiando la Illustrissima
+            Signoria prima, poi comendando la persona di esso Orator nostro. Poi Sua Sernità si levò
+            ed acompagnò L'Orator fino a pe'di la scala, dimostrando grande benevolentia.</p>
+      </body>
+      <back>
+         <listEvent type="Nutzung">
+            <event type="Zeremoniell" xml:id="n1">
+               <!-- wo muss ich den Verweis auf "n1" setzen? -->
+               <head>Antrittsaudienz des vezenianischen Botschafters/Gesandten Carlo
+                  Contarini in der Hofburg 1524</head>
+               <desc>
+                  <date type="begin">1524.08.14</date>
+                  <date type="end">1524.08.14</date>
+               </desc>
+            </event>
+         </listEvent>
+      </back>
+   </text>
+</TEI>

@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Verwaltungssitz</title>
+            <title type="main">Besuch des päpstlichen Legaten und Bischofs von Acqui Terme Petrus
+               Vorstius bei Ferdinand I. im November 1536</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>conversion to TEI</resp>
@@ -23,6 +23,11 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
+                  <bibl>Pierre Francois Xavier De Ram, Documents relatifs à la nonciature de l'éveque
+                     d'Acqui, Pierre Vorstius, d'Anvers, en Allemagne et aux Pays-Bas, dans les
+                     années 1536 et 1537, extraits d'un manuscript de la Bibliothèque Vaticane, in:
+                     Compte Rendue de Séances de la Commission Royale d'Histoire ou Receuil de ses
+                     Bulletins. Troisième Série. Tome Sixième, Brüssel 1864, 330-331</bibl>
                   <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
@@ -30,47 +35,39 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 87-88</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
          <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Vienna</settlement>
-                  <repository>AT-OeStA</repository>
-                  <idno>FHKA AHK GB 22 fol. 19-20</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author/>
-                     <title>Vizedom- und Exempt-Ämter-Buch</title>
-                  </msItem>
-               </msContents>
-               <history>
-                  <origin>
-                     <origDate notBefore="1524-01-01">1524</origDate>
-                     <origDate notAfter="1525-12-31">1525</origDate>
-                  </origin>
-               </history>
-            </msDesc>
+            <p/>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
-               den 1520er Jahren als Verwaltungssitz für die "Rait Camer" (Buchhaltung [fol. 19])
-               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
+            <p>Bericht des <persName><roleName>kaiserlichen Notars und Schreibers am päpstlichen
+                     Hof</roleName>
+                  <forename>Cornelius</forename>
+                  <surname>Ettenius</surname></persName> zum Besuch des
+                     <persName><roleName>päpstlichen Legaten und Bischofs von <placeName type="city"
+                        >Acqui Terme</placeName></roleName>
+                  <forename>Petrus</forename>
+                  <surname>Vorstius</surname></persName> bei
+                     <persName><forename>Ferdinand</forename> I.</persName> am 15. November 1536:
+               zuerst Versammlung in der Vorderen Stube ("anticamera"), dann Übersiedlung in die
+               Ratstube ("sala consilii"), wo Besichtigung der silbernen Uhr.</p>
             <dateline>
-               <date type="begin">1520.01.01</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1536-11-15">15. November 1536</date>
+               <date notAfter="1536-11-15">15. November 1536</date>
             </dateline>
          </div>
       </front>
       <body>
-         <p/>
+         <p>Et quum aliquamdiu constetissent cum rege in anticamera, accesserunt salam consilii, in
+            qua antea fuerat facta intimation concilii. [...] Vidimus autem in eadem sala magnum
+            horologium ex argenteo et valde magnifice et artificiose factum.".</p>
       </body>
    </text>
 </TEI>

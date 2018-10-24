@@ -3,23 +3,24 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Merkwürdigkeiten Wien 1823</title>
-            <title type="sub">digitale Version</title>
+            <title type="sub">digital edition</title>
             <respStmt>
-               <resp>TEI Kodierung</resp>
-               <persName>Richard Kurdiovsky</persName>
+               <resp>Encoded follwoing the TEI Guidelines</resp>
+               <persName xml:id="rk">Richard Kurdiovsky</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>not yet published</p>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title>Merkwürdigkeiten der Haupt und Residenz-Stadt Wien und ihrer nächsten Umgebungen</title>
+                  <title>Merkwürdigkeiten der Haupt und Residenz-Stadt Wien und ihrer nächsten
+                     Umgebungen</title>
                   <author>
                      <persName ref="pe1">Franz Heinrich Böckh</persName>
                   </author>
@@ -35,14 +36,27 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>[...]im gewöhnlichen Sprachgebrauche nennt man dieses
-         Gebäude den Schweizer-Hof (weil ehemals die Schwei-
-         zer Garde, welche nun durch die Trabanten-leib-Garde er-
-         setzt ist, ihren Posten hatte); auch manches Mahl die alte 
-         Burg. [...]</p>
+         <p>[...]<seg xml:id="s01">im gewöhnlichen Sprachgebrauche nennt man dieses <rs
+                  type="Partonomie" ref="135">Gebäude</rs> den Schweizer-Hof (weil ehemals die
+               Schwei- zer Garde, welche nun durch die Trabanten-leib-Garde er- setzt ist, ihren
+               Posten hatte)</seg>; auch manches Mahl <seg xml:id="s01">die alte Burg</seg>.
+            <!-- wieso kann ich hier nicht zweimal verweisen? -->
+            [...]</p>
+         <dateline>
+            <date/>
+         </dateline>
       </body>
-  </text>
+      <back>
+         <spanGrp type="Benennungen">
+            <span target="#s01">
+               <term>Schweizertor</term>
+<!-- kann ich hier auf 2 Begriffe verweisen? -->               
+               <term>Schweizerhof</term>
+            </span>
+         </spanGrp>
+      </back>
+   </text>
 </TEI>

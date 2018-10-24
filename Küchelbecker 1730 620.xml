@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Küchelbecker 1730</title>
+            <title type="sub">digital edition</title>
+            <respStmt>
+               <resp>Encoded follwoing the TEI guidelines</resp>
+               <persName xml:id="rk">Richard Kurdiovsky</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>not yet published</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title type="main">Allerneueste Nachricht vom Römisch-Kayserlichen Hofe</title>
+                  <title type="sub">Nebst einer ausführlichen Beschreibung der Kayserlichen
+                     Residentz-Stadt Wien und der umliegenden Oerter, Theils aus den Geschichten,
+                     theils aus eigener Erfahrung zusammen getragen und mit saubern Kupffern ans
+                     Licht gegeben</title>
+                  <author>
+                     <persName ref="pe1">Johann Basilius Küchelbecker</persName>
+                  </author>
+                  <imprint>
+                     <publisher>
+                        <orgName>Nicolaus Förster und Sohn</orgName>
+                     </publisher>
+                     <pubPlace>Hannover</pubPlace>
+                     <date>1730</date>
+                  </imprint>
+                  <biblScope unit="page">620</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p> [...] Dem Umfang nach, so machet <rs type="Partonomie" ref="134">dieselbe</rs> ein
+            länglichtes Viereck aus, in dessen Mitte ein grosser und geraumiger <rs type="Hofburg"
+               key="In der Burg">Schloß-Hof</rs> ist, auf welchen viel hundert Carrossen halten
+            können, und allwo eine starcke Wacht von der Wienerischen Stadt-Guarnison stehet, vor
+            de- ren Corps de garde zwwey Stücke gepflanzet sind. Nahe bey derselben gehet ein
+            ordentli- ches Stadt-Thor, das Burg-Thor genannt, unter denen <rs type="Partonomie"
+               ref="734">Kayserlichen Apartements, oder Zimmern</rs> hinaus, welches ebenfalls wegen
+            der vielen Wagen, und anderer starcken Passage, eine grosse Incommodité ist. Aus diesem
+               <rs type="Hofburg" key="In der Burg">Schloß-Hof</rs> gehet man lincker Hand über eine
+            kleine Brücke, durch ein <seg xml:id="s01"><rs type="Partonomie" ref="337">Thor</rs>, so
+               von denen Kayserlichen Schweitzern besetzet wird</seg>, in den innern Schloß-Hof, so
+            sehr klein und enge ist; und von da gehet man die Treppe hinan in die Kayserlichen
+            Zimmer. [...] </p>
+         <dateline>
+            <date notBefore="1730-01-01">1730</date>
+            <date notAfter="1730-12-31">1730</date>
+         </dateline>
+      </body>
+      <back>
+         <spanGrp type="Benennungen">
+            <span target="#s01">
+               <term>Schweizertor</term>
+               <date>1730</date>
+            </span>
+         </spanGrp>
+         <listPerson type="historical">
+            <person xml:id="pe1">
+               <persName>
+                  <forename>Johann</forename>
+                  <forename>Basilius</forename>
+                  <surname>Küchelbecker</surname>
+               </persName>
+            </person>
+         </listPerson>
+      </back>
+   </text>
+</TEI>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Verwaltungssitz</title>
+            <title type="main">Baumaßnahmen im Appartement Ferdinands I. 1544: Herstellung der Fußböden</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>conversion to TEI</resp>
@@ -30,7 +29,7 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 94</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -38,19 +37,20 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OeStA</repository>
-                  <idno>FHKA AHK GB 22 fol. 19-20</idno>
+                  <repository>AT-OEStA</repository>
+                  <idno>FHKA AHK VDA Steuerbücher 579 fol. 299r</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <author/>
-                     <title>Vizedom- und Exempt-Ämter-Buch</title>
+                     <title>Vizedomamtshauptrechnungen, Vizedom- und Kammermeisteramtsbücher
+                        Österreich unter der Enns (Vizedom Chr. Polt), 1544</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate notBefore="1524-01-01">1524</origDate>
-                     <origDate notAfter="1525-12-31">1525</origDate>
+                     <origDate notBefore="1544-01-01">1544</origDate>
+                     <origDate notAfter="1544-12-31">1544</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -60,17 +60,18 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
-               den 1520er Jahren als Verwaltungssitz für die "Rait Camer" (Buchhaltung [fol. 19])
-               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
+            <p>Baumaßnahmen im Appartement <persName><forename>Ferdinands</forename> I.</persName>
+               im <rs ref="135">Schweizerhof</rs> 1544: Anfertigung einer neuen Bodenkonstruktion
+               mit Ziegelpflasterung.</p>
             <dateline>
-               <date type="begin">1520.01.01</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1544-01-01">1544</date>
+               <date notAfter="1544-12-31">1544</date>
             </dateline>
          </div>
       </front>
       <body>
-         <p/>
+         <p>die "obersten Poden ob. Khu. Mt. Zimer" ausgeräumt und mit einfachen Holzbrettern
+            "vberlegt" sowie "Sannt vnd Ziegl Zu den Phlastern in Khu: Mt: Zimer Zuegeraicht"</p>
       </body>
    </text>
 </TEI>

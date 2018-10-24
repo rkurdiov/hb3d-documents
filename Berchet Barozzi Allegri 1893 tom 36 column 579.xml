@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Beschreibung der Hofburg im Jahr 1524</title>
+            <title type="sub">digital edition</title>
+            <respStmt>
+               <resp>Interpreted by</resp>
+               <persName xml:id="rhh">Renate Holzschuh-Hofer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded follwoing the TEI Guidelines by</resp>
+               <persName xml:id="rk">
+                  <name type="surname">Kurdiovsky</name>
+                  <name type="foretname">Richard</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>not yet published</p>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
+                     Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione und
+                     Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
+                     [ed.], Denkschriften der philosophisch-historischen Klasse 444;
+                     Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
+                     Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
+                     zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
+                     esp. 80-81</bibl>
+                  <bibl> Guglielmo Berchet / Niccolò Barozzi / Marco Allegri (ed.), Diarii di Marino
+                     Sanuto, Venice 1893, tom. 36, column 579</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <p>Summario di lo itinerario di sier Carlo Contarini andato orator al Serenissima
+               archiduca di Austria don Fernando principe di Castiglia</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p ana="Beschreibung">Beschreibung des <persName><roleName>venezianischen
+                     Botschafters</roleName>
+                  <forename>Carlo</forename>
+                  <surname>Contarini</surname></persName>: Die <rs type="Partonomie" ref="135"
+                  >Hofburg</rs> ist von Gräben umgeben und besitzt prächtig ausgestattete Räume. Sie
+               ist keine so starke Festung wie die Burg von <placeName type="city">Wiener
+                  Neustadt</placeName>. Sie ist wie ein Palast von Gärten umgeben, die drei
+               Gartenterrassen und eine Volière besitzen.</p>
+            <dateline>
+               <date notBefore="1524-01-01">1524</date>
+               <date notAfter="1524-12-31">1524</date>
+            </dateline>
+         </div>
+      </front>
+      <body>
+         <p>Questa citade de Vienna si è bellissima et granda, murata di bellissime mure con
+            merladura antiqua con fossi atorno, et ha uno polito castello, ma non forte come quello
+            di Citanova, ma ha le sue fosse atorno et dentro ha bellissimi saloti dove è stato, et
+            ha uno giardino in tre soleri sicome è il palazo, con una bellissima loza coperta di
+            piombo, et uno loco murato intorno di filo di ferro coperto in pigna pur di piombo; nel
+            quale è di ogni sorta di uccelli et se li danno il suo viver per zornata.</p>
+      </body>
+      <back>
+         <listEvent type="Beschreibung">
+            <event where="135">
+               <desc>
+                  <date type="begin">1524.01.01</date>
+                  <date type="end">1524.12.31</date>
+               </desc>
+            </event>
+         </listEvent>
+      </back>
+   </text>
+</TEI>

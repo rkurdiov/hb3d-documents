@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Verwaltungssitz</title>
+            <title type="main">Verlegung eines neuen Fußbodens im Appartement Ferdinands I. im
+               September 1548</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>conversion to TEI</resp>
@@ -30,7 +30,7 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 95</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -38,19 +38,20 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OeStA</repository>
-                  <idno>FHKA AHK GB 22 fol. 19-20</idno>
+                  <repository>AT-OEStA</repository>
+                  <idno>FHKA AHK VDA Steuerbücher 582 fol. 251v</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <author/>
-                     <title>Vizedom- und Exempt-Ämter-Buch</title>
+                     <title>Vizedomamtshauptrechnungen, Vizedom- und Kammermeisteramtsbücher
+                        Österreich unter der Enns (Vizedom Chr. Polt), 1548</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate notBefore="1524-01-01">1524</origDate>
-                     <origDate notAfter="1525-12-31">1525</origDate>
+                     <origDate notBefore="1548-01-01">1548</origDate>
+                     <origDate notAfter="1548-12-31">1548</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -60,12 +61,12 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="Hofburg" subtype="Schweizerhof" ref="135">Schweizerhofs</rs> in
-               den 1520er Jahren als Verwaltungssitz für die "Rait Camer" (Buchhaltung [fol. 19])
-               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
+            <p>Verlegung eines neuen Fußbodens im Appartement
+                     <persName><forename>Ferdinands</forename> I.</persName> im <rs ref="135"
+                  >Schweizerhof</rs> im September 1548.</p>
             <dateline>
-               <date type="begin">1520.01.01</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1548-09-01">September 1548</date>
+               <date notAfter="1548-09-30">September 1548</date>
             </dateline>
          </div>
       </front>
