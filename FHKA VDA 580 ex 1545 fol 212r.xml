@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Einrichtung einer Harnischkammer im dritten Obergeschoß (heute 2.
+               Stock) des Südwesttrakts des Schweizerhofs ab 1545</title>
+            <title type="sub">digital edition</title>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName xml:id="mk">Markus Jeitler</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Interpreted by</resp>
+               <persName xml:id="rhh">Renate Holzschuh-Hofer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded following the TEI Guidelines by</resp>
+               <persName>
+                  <name type="surname">Kurdiovsky</name>
+                  <name type="foretname">Richard</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>not yet published</p>
+         </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
+                     Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funtkione und
+                     Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
+                     [ed.], Denkschriften der philosophisch-historischen Klasse 444;
+                     Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
+                     Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
+                     zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
+                     esp. 95</bibl>
+                  <bibl>Harry Kühnel, Forschungsergebnisse zur Geschichte der Wiener Hofburg V. Die
+                     Stallburg, in: Anzeiger der phil.-hist. Klasse der österreichischen Akademie
+                     der Wissenschaften 98 (1961),210-230, esp. 212</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement>
+                  <repository>AT-OEStA</repository>
+                  <idno>FHKA AHK VDA Steuerbücher 580 fol. 212r</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author/>
+                     <title>Vizedomamtshauptrechnungen, Vizedom- und Kammermeisteramtsbücher
+                        Österreich unter der Enns (Vizedom Chr. Polt), 1545</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <summary>Entstehungszeitraum:</summary>
+                  <origin notBefore="1545-01-01" notAfter="1545-12-31">1545</origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="regest">
+            <p>Einrichtung einer Harnischkammer im dritten Obergeschoß (heute 2.
+               Stock) des Südwesttrakts des Schweizerhofs ab 1545.</p>
+            <dateline>
+               <date notBefore="1545-01-01">1. Jänner 1545</date>
+               <date notAfter="1545-12-31">31. Dezember 1545</date>
+            </dateline>
+         </div>
+      </front>
+      <body>
+         <p></p>
+      </body>
+      <back>
+         <listEvent type="Nutzung">
+            <event type="Baumaßnahme" xml:id="n1">
+               <!-- wo muss ich den Verweis auf "n1" setzen? -->
+               <head></head>
+               <desc>
+                  <date type="begin">1545.01.01</date>
+                  <date type="end">1545.12.31</date>
+               </desc>
+            </event>
+         </listEvent>
+      </back>
+   </text>
+</TEI>
