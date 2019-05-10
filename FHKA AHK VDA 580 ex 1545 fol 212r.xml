@@ -6,25 +6,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Tapisserien-Depot</title>
+            <title type="main">Einrichtung einer Harnischkammer im dritten Obergeschoß (heute 2.
+               Stock) des Südwesttrakts des Schweizerhofs ab 1545</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>Transcribed by</resp>
                <persName>
                   <name type="surname">Jeitler</name>
-                  <name type="forename">Markus</name>
-               </persName>
+                  <name type="forename">Markus</name></persName>
             </respStmt>
             <respStmt>
                <resp>Interpreted by</resp>
                <persName>
                   <name type="surname">Holzschuh-Hofer</name>
-                  <name type="forename">Renate</name>
-               </persName>
+                  <name type="forename">Renate</name></persName>
             </respStmt>
             <respStmt>
-               <resp>Encoded following the TEI Guidelindes by</resp>
+               <resp>Encoded following the TEI Guidelines by</resp>
                <persName>
                   <name type="surname">Kurdiovsky</name>
                   <name type="foretname">Richard</name>
@@ -37,8 +35,6 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
-                  <bibl>Jahrbuch der kunsthistorischen Sammlungen des allerhöchsten Kaiserhauses 3,
-                     Nr. 2708</bibl>
                   <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funktion und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
@@ -46,7 +42,10 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 95</bibl>
+                  <bibl>Harry Kühnel, Forschungsergebnisse zur Geschichte der Wiener Hofburg V. Die
+                     Stallburg, in: Anzeiger der phil.-hist. Klasse der österreichischen Akademie
+                     der Wissenschaften 98 (1961),210-230, esp. 212</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -55,23 +54,22 @@
                <msIdentifier>
                   <settlement>Vienna</settlement>
                   <repository>AT-OEStA</repository>
-                  <idno>FHKA AHK GB 20</idno>
-                  <msName>Nebenbuch Liefergeld, Hofgesinde und Dienstleute</msName>
+                  <idno>FHKA AHK VDA Steuerbücher 580</idno>
+                  <msName>Vizedomamtshauptrechnungen, Vizedom- und Kammermeisteramtsbücher
+                     Österreich unter der Enns (Vizedom Chr. Polt)</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <locus>fol 133</locus>
-                     <author></author>
-                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als Tapisserie-Depot</title>
-                     <docDate>1522</docDate>
-                     </msItem>
+                     <locus>fol 212r</locus>
+                     <author/>
+                     <title>VEinrichtung einer Harnischkammer im dritten Obergeschoß (heute 2.
+                        Stock) des Südwesttrakts des Schweizerhofs ab 1545</title>
+                     <docDate>1545</docDate>
+                  </msItem>
                </msContents>
                <history>
                   <summary>date of origin</summary>
-                  <origin>
-                     <origDate notBefore="1501-01-01">1501</origDate>
-                     <origDate notAfter="1501-12-31">1501</origDate>
-                  </origin>
+                  <origin notBefore="1545-01-01" notAfter="1545-12-31">1545</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -80,16 +78,28 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren als Tapisserie-Depot.</p>
+            <p>Einrichtung einer Harnischkammer im dritten Obergeschoß (heute 2. Stock) des
+               Südwesttrakts des <rs type="partonomy" ref="337">Schweizerhofs</rs> ab 1545.</p>
             <dateline>
-               <date type="begin">1522.06.29</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1545-01-01">1. Jänner 1545</date>
+               <date notAfter="1545-12-31">31. Dezember 1545</date>
             </dateline>
          </div>
       </front>
       <body>
-         <pb n="fol 133"></pb>
-         <p>daz ir das gewelb in unser <rs ref="135">burgkh zu Wienn</rs>, darinn unser tapesserei ligt</p>
+         <p/>
       </body>
+      <back>
+         <listEvent type="Nutzung">
+            <event type="Baumaßnahme" xml:id="n1">
+               <!-- wo muss ich den Verweis auf "n1" setzen? -->
+               <head/>
+               <desc>
+                  <date type="begin">1545.01.01</date>
+                  <date type="end">1545.12.31</date>
+               </desc>
+            </event>
+         </listEvent>
+      </back>
    </text>
 </TEI>

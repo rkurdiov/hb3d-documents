@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Tapisserien-Depot</title>
+            <title type="main">Sanierungsarbeiten am Südwesttrakt, an Süd- und Westturm im
+               Frühling/Sommer 1534 </title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>Transcribed by</resp>
@@ -24,10 +24,10 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Encoded following the TEI Guidelindes by</resp>
-               <persName>
+               <resp>Encoded following the TEI Guidelines by</resp>
+               <persName xml:id="rk">
                   <name type="surname">Kurdiovsky</name>
-                  <name type="foretname">Richard</name>
+                  <name type="forename">Richard</name>
                </persName>
             </respStmt>
          </titleStmt>
@@ -37,16 +37,14 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
-                  <bibl>Jahrbuch der kunsthistorischen Sammlungen des allerhöchsten Kaiserhauses 3,
-                     Nr. 2708</bibl>
-                  <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
+                  <bibl>Renate Holzschuh-Hofer, Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funktion und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
                      [ed.], Denkschriften der philosophisch-historischen Klasse 444;
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 87</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -54,24 +52,22 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OEStA</repository>
-                  <idno>FHKA AHK GB 20</idno>
-                  <msName>Nebenbuch Liefergeld, Hofgesinde und Dienstleute</msName>
+                  <repository>AT-OeStA</repository>
+                  <idno>FHKA AHK NÖHA W 61/A/2/1</idno>
+                  <msName>Wien, kaiserlicher Hof: Burgbauten</msName>
                </msIdentifier>
                <msContents>
+                  <!-- TODO mailing liste nachfragen - Mechanismus, um klar zu machen, dass das nur ein Ausschnitt ist.  -->
                   <msItem>
-                     <locus>fol 133</locus>
-                     <author></author>
-                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als Tapisserie-Depot</title>
-                     <docDate>1522</docDate>
-                     </msItem>
+                     <locus>fol 14r</locus>
+                     <title type="supplied" resp="#rk">Sanierungsarbeiten am Südwesttrakt, an Süd-
+                        und Westturm im Frühling/Sommer 1534</title>
+                     <docDate>1534</docDate>
+                  </msItem>
                </msContents>
                <history>
                   <summary>date of origin</summary>
-                  <origin>
-                     <origDate notBefore="1501-01-01">1501</origDate>
-                     <origDate notAfter="1501-12-31">1501</origDate>
-                  </origin>
+                  <origin notBefore="1526-01-01" notAfter="1569-12-31">1526-1569</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -80,16 +76,33 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren als Tapisserie-Depot.</p>
+            <p ana="#bmn1">Sanierungsarbeiten am <rs type="partonomy" ref="148">Südwesttrakt</rs>,
+               am <rs type="partonomy" ref="325">Süd-</rs> und am <rs type="partonomy" ref="323"
+                  >Westturm</rs> im Frühling/ Sommer 1534: Behebung von Setzungsschäden (aufgrund
+               von Minengängen der Belagerung von 1529) durch Unterfangung der tragenden Mauern, der
+               Kellerpfeiler und der <rs type="partonomy" ref="683">Zwingermauer</rs>, Abtragung
+               von Gebäuden auf der Zwingermauer und Adaptierung der königlichen Zimmer.</p>
             <dateline>
-               <date type="begin">1522.06.29</date>
-               <date type="end">1529.12.31</date>
+               <date type="begin">1534.03.01</date>
+               <date type="end">1534.08.31</date>
             </dateline>
          </div>
       </front>
       <body>
-         <pb n="fol 133"></pb>
-         <p>daz ir das gewelb in unser <rs ref="135">burgkh zu Wienn</rs>, darinn unser tapesserei ligt</p>
+         <pb n="fol 14r"/>
+         <p>Damit man Zu khunfftigen Zeytten an denen ortten khainer gefferlichkhayt Zu besorgen</p>
       </body>
+      <back>
+         <listEvent type="construction-measures">
+            <event type="repair-works" xml:id="cm2" where="148 325 323 683" sameAs="http://www">
+               <!-- TODO Auflistung dieser Art möglich?  -->
+               <head>Sanierungsarbeiten am Südwesttrakt Frühling und Sommer 1534</head>
+               <desc>
+                  <date type="begin">1534.03.01</date>
+                  <date type="end">1534.08.31</date>
+               </desc>
+            </event>
+         </listEvent>
+      </back>
    </text>
 </TEI>

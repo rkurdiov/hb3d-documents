@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Tapisserien-Depot</title>
+            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als Zeughaus</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>Transcribed by</resp>
@@ -24,7 +23,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Encoded following the TEI Guidelindes by</resp>
+               <resp>Encoded following the TEI Guidelines by</resp>
                <persName>
                   <name type="surname">Kurdiovsky</name>
                   <name type="foretname">Richard</name>
@@ -37,8 +36,6 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
-                  <bibl>Jahrbuch der kunsthistorischen Sammlungen des allerhöchsten Kaiserhauses 3,
-                     Nr. 2708</bibl>
                   <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funktion und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
@@ -54,23 +51,23 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OEStA</repository>
-                  <idno>FHKA AHK GB 20</idno>
-                  <msName>Nebenbuch Liefergeld, Hofgesinde und Dienstleute</msName>
+                  <repository>AT-OeStA</repository>
+                  <idno>FHKA AHK NÖHA W 61/C/90/A</idno>
+                  <msName>Wien, Zeug- und Armaturswesen</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <locus>fol 133</locus>
-                     <author></author>
-                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als Tapisserie-Depot</title>
-                     <docDate>1522</docDate>
-                     </msItem>
+                     <locus>fol 25r</locus>
+                     <author/>
+                     <title>Nutzung des Schweizerhofs in den 1520er Jahren als Zeughaus</title>
+                     <docDate>1519.05.23</docDate>
+                  </msItem>
                </msContents>
                <history>
                   <summary>date of origin</summary>
                   <origin>
-                     <origDate notBefore="1501-01-01">1501</origDate>
-                     <origDate notAfter="1501-12-31">1501</origDate>
+                     <origDate notBefore="1524-01-01">1524</origDate>
+                     <origDate notAfter="1551-12-31">1551</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -80,16 +77,27 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren als Tapisserie-Depot.</p>
+            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren
+               als Zeughaus.</p>
             <dateline>
-               <date type="begin">1522.06.29</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1519-05-23">1520.01.01</date>
+               <date notAfter="1529-12-31">1529.12.31</date>
             </dateline>
          </div>
       </front>
       <body>
-         <pb n="fol 133"></pb>
-         <p>daz ir das gewelb in unser <rs ref="135">burgkh zu Wienn</rs>, darinn unser tapesserei ligt</p>
+         <pb n="fol 25r"/>
+         <p>Jn der Purgkh. Ain grosser gossner merser genannt der narr Mer ain gossner merser darauf
+            Zway klaine merserl gegossen Ain grosse gossne Puchsen ain Hawbtstugkh ist kain namen
+            darauf Mer ain Hawbtstugkh genannt dj läwrpheiff Mer Zwaj altte grosse Hawptstugkh Mer
+            Zwo Viertl puchssen sein des grafenegker gewest Mer viertzig Eisnen vnnd Messen
+            Hanndtpuchsen VierundZwaintzig Hackhen Puchssen Zwelf lanntzkhnecht spiess Siben
+            Hellmpartten Pulffer in ainem Vässl ainhundert Sechsundfunfftzig Phundt </p>
+         <pb n="fol 25v"/>
+         <p>Mer j pulffer Vässl Hunder Achthaltunddreissig phundt VierundZwaintzig gross Stainen
+            kugln Zu den haubtstugken Sibentzig Puschen geschiffter Lanntzknecht spiess Ye ain ainem
+            Puschen Vij spiess thuet vierhundert Vnd Newntzig spiess Mer Harnasch Dreyhundert
+            Zwenundsibentzig fueßknecht krebs </p>
       </body>
    </text>
 </TEI>

@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Tapisserien-Depot</title>
+               Verwaltungssitz</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>Transcribed by</resp>
@@ -24,10 +24,10 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Encoded following the TEI Guidelindes by</resp>
+               <resp>Encoded following the TEI Guidelinces by</resp>
                <persName>
                   <name type="surname">Kurdiovsky</name>
-                  <name type="foretname">Richard</name>
+                  <name type="forename">Richard</name>
                </persName>
             </respStmt>
          </titleStmt>
@@ -37,8 +37,6 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
-                  <bibl>Jahrbuch der kunsthistorischen Sammlungen des allerhöchsten Kaiserhauses 3,
-                     Nr. 2708</bibl>
                   <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funktion und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
@@ -54,23 +52,24 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OEStA</repository>
-                  <idno>FHKA AHK GB 20</idno>
-                  <msName>Nebenbuch Liefergeld, Hofgesinde und Dienstleute</msName>
+                  <repository>AT-OeStA</repository>
+                  <idno>FHKA AHK GB 22</idno>
+                  <msName>Vizedom- und Exempt-Ämter-Buch</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <locus>fol 133</locus>
-                     <author></author>
-                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als Tapisserie-Depot</title>
-                     <docDate>1522</docDate>
-                     </msItem>
+                     <locus>fol 19v-20r</locus>
+                     <author/>
+                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als
+                        Verwaltungssitz</title>
+                     <docDate>1524</docDate>
+                  </msItem>
                </msContents>
                <history>
                   <summary>date of origin</summary>
                   <origin>
-                     <origDate notBefore="1501-01-01">1501</origDate>
-                     <origDate notAfter="1501-12-31">1501</origDate>
+                     <origDate notBefore="1524-01-01">1524</origDate>
+                     <origDate notAfter="1525-12-31">1525</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -80,16 +79,18 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren als Tapisserie-Depot.</p>
+            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in
+               den 1520er Jahren als Verwaltungssitz für die "RaitCamer" (Buchhaltung [fol. 19])
+               und den Hofrat ("Hofrat Stuben" [fol. 20]).</p>
             <dateline>
-               <date type="begin">1522.06.29</date>
+               <date type="begin">1520.01.01</date>
                <date type="end">1529.12.31</date>
             </dateline>
          </div>
       </front>
       <body>
-         <pb n="fol 133"></pb>
-         <p>daz ir das gewelb in unser <rs ref="135">burgkh zu Wienn</rs>, darinn unser tapesserei ligt</p>
+         <pb n="fol 19v-20r"/>
+         <p/>
       </body>
    </text>
 </TEI>

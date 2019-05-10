@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Tapisserien-Depot</title>
+            <title type="main">Bautätigkeiten im Juni 1534</title>
             <title type="sub">digital edition</title>
             <respStmt>
                <resp>Transcribed by</resp>
@@ -24,7 +23,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Encoded following the TEI Guidelindes by</resp>
+               <resp>Encoded following the TEI Guidelines by</resp>
                <persName>
                   <name type="surname">Kurdiovsky</name>
                   <name type="foretname">Richard</name>
@@ -37,8 +36,6 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
-                  <bibl>Jahrbuch der kunsthistorischen Sammlungen des allerhöchsten Kaiserhauses 3,
-                     Nr. 2708</bibl>
                   <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funktion und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
@@ -46,7 +43,7 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 87</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -54,23 +51,23 @@
             <msDesc>
                <msIdentifier>
                   <settlement>Vienna</settlement>
-                  <repository>AT-OEStA</repository>
-                  <idno>FHKA AHK GB 20</idno>
-                  <msName>Nebenbuch Liefergeld, Hofgesinde und Dienstleute</msName>
+                  <repository>AT-OeStA</repository>
+                  <idno>FHKA AHK NÖHA W 61/A/2/1</idno>
+                  <msName>Wien, kaiserlicher Hof: Burgbauten</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <locus>fol 133</locus>
-                     <author></author>
-                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als Tapisserie-Depot</title>
-                     <docDate>1522</docDate>
-                     </msItem>
+                     <locus>fol 11r</locus>
+                     <author/>
+                     <title type="supplied" resp="#rk">Bautätigkeiten im Juni 1534</title>
+                     <docDate>1534.06</docDate>
+                  </msItem>
                </msContents>
                <history>
                   <summary>date of origin</summary>
                   <origin>
-                     <origDate notBefore="1501-01-01">1501</origDate>
-                     <origDate notAfter="1501-12-31">1501</origDate>
+                     <origDate notBefore="1526-01-01">1526</origDate>
+                     <origDate notAfter="1569-12-31">1569</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -80,16 +77,19 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren als Tapisserie-Depot.</p>
+            <p>Bautätigkeiten im Juni 1534: Einrichtung des Gärtnerzimmers, Einrichtung der
+               Ballhäuser, Pflasterung und Reparatur der <rs type="partonomy" ref="449"
+                  >Burgbastei</rs>, Bau des Rohrbrunnens in der <rs type="Hofburg"
+                  subtype="Schweizerhof" ref="135">Burg</rs>, Errichtung des Irrgartens, Bau des
+               neuen Altans im Burggarten.</p>
             <dateline>
-               <date type="begin">1522.06.29</date>
-               <date type="end">1529.12.31</date>
+               <origDate notBefore="1534-06-01">Juni 1534</origDate>
+               <origDate notAfter="1534-06-30">Juni 1534</origDate>
             </dateline>
          </div>
       </front>
       <body>
-         <pb n="fol 133"></pb>
-         <p>daz ir das gewelb in unser <rs ref="135">burgkh zu Wienn</rs>, darinn unser tapesserei ligt</p>
+         <p/>
       </body>
    </text>
 </TEI>

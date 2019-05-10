@@ -6,27 +6,47 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Merkwürdigkeiten Wien 1823</title>
+            <title type="main">Benennung des Schweizertors und Schweizerhofs</title>
             <title type="sub">digital edition</title>
             <respStmt>
-               <resp>Encoded follwoing the TEI Guidelines</resp>
-               <persName xml:id="rk">Richard Kurdiovsky</persName>
+               <resp>Encoded following the TEI Guidelines by</resp>
+               <persName>
+                  <name type="forename">Richard</name>
+                  <name type="surname">Kurdiovsky</name>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>not yet published</p>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Anna Mader-Kratky, Alte Burg - bauliche Entwicklung, 1705-1835, in: Hellmut
+                     Lorenz / Anna Mader-Kratky (eds.), Die Wiener Hofburg 1705-1835. Die
+                     kaiserliche Residenz vom Barock bis zum Klassizismus (= Österreichische
+                     Akademie der Wissenschaften [ed.], Denkschriften der philosophisch-historischen
+                     Klasse 445; Werner Telesko [ed.], Veröffentlichungen zur Kunstgeschichte
+                     [vormals Veröffentlichungen der Kommission für Kunstgeschichte] 14; Artur
+                     Rosenauer [ed.], Veröffentlichungen zur Bau- und Funktionsgeschichte der Wiener
+                     Hofburg 3, Vienna 2016, 263-271, esp. 265 and footnote 1149.</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
                   <title>Merkwürdigkeiten der Haupt und Residenz-Stadt Wien und ihrer nächsten
                      Umgebungen</title>
                   <author>
-                     <persName ref="pe1">Franz Heinrich Böckh</persName>
+                     <persName>
+                        <name type="forename">Franz Heinrich</name>
+                        <name type="surname">Böckh</name>
+                     </persName>
                   </author>
                   <imprint>
                      <publisher>
-                        <orgName>B Ph. Bauer</orgName>
+                        <orgName>B Ph. <name type="surname">Bauer</name></orgName>
                      </publisher>
                      <pubPlace>Wien</pubPlace>
                      <date>1823</date>
@@ -38,22 +58,30 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="regest">
+            <p>Benennung der alten Burg als <rs type="partonomy" ref="135">Schweizerhof</rs> bzw.
+                  <rs type="partonomy" ref="337">Schweizertor</rs> wegen der ehemals hier postierten
+               Schweizergarde</p>
+            <dateline>
+               <date type="beginn">1823.01.01</date>
+               <date type="end">1823.12.31</date>
+            </dateline>
+         </div>
+      </front>
       <body>
-         <p>[...]<seg xml:id="s01">im gewöhnlichen Sprachgebrauche nennt man dieses <rs
-                  type="Partonomie" ref="135">Gebäude</rs> den Schweizer-Hof (weil ehemals die
-               Schwei- zer Garde, welche nun durch die Trabanten-leib-Garde er- setzt ist, ihren
-               Posten hatte)</seg>; auch manches Mahl <seg xml:id="s01">die alte Burg</seg>.
-            <!-- wieso kann ich hier nicht zweimal verweisen? -->
-            [...]</p>
-         <dateline>
-            <date/>
-         </dateline>
+         <pb n="page 464"/>
+         <p>[...] im gewöhnlichen Sprachgebrauche nennt man dieses Gebäude den <rs type="partonomy"
+               ref="135">Schweizer-Hof</rs> (weil ehemals die Schwei- zer Garde, welche nun durch
+            die Trabanten-leib-Garde er- setzt ist, ihren Posten hatte); auch manches Mahl die <rs
+               type="partonomy" ref="135">alte Burg</rs>.</p>
+         <dateline/>
       </body>
       <back>
          <spanGrp type="Benennungen">
             <span target="#s01">
                <term>Schweizertor</term>
-<!-- kann ich hier auf 2 Begriffe verweisen? -->               
+               <!-- kann ich hier auf 2 Begriffe verweisen? -->
                <term>Schweizerhof</term>
             </span>
          </spanGrp>

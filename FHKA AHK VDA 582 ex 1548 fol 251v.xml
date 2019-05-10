@@ -6,11 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Nutzung des Schweizerhofs in den 1520er Jahren als
-               Tapisserien-Depot</title>
+            <title type="main">Verlegung eines neuen Fußbodens im Appartement Ferdinands I. im
+               September 1548</title>
             <title type="sub">digital edition</title>
             <respStmt>
-               <resp>Transcribed by</resp>
+               <resp>Transcribed by </resp>
                <persName>
                   <name type="surname">Jeitler</name>
                   <name type="forename">Markus</name>
@@ -18,13 +18,11 @@
             </respStmt>
             <respStmt>
                <resp>Interpreted by</resp>
-               <persName>
-                  <name type="surname">Holzschuh-Hofer</name>
-                  <name type="forename">Renate</name>
-               </persName>
+               <persName><name type="surname">Holzschuh-Hofer</name><name type="forename"
+                     >Renate</name></persName>
             </respStmt>
             <respStmt>
-               <resp>Encoded following the TEI Guidelindes by</resp>
+               <resp>Encoded following the TEI Guidelines by</resp>
                <persName>
                   <name type="surname">Kurdiovsky</name>
                   <name type="foretname">Richard</name>
@@ -37,8 +35,6 @@
          <notesStmt>
             <relatedItem type="publishedIn">
                <listBibl>
-                  <bibl>Jahrbuch der kunsthistorischen Sammlungen des allerhöchsten Kaiserhauses 3,
-                     Nr. 2708</bibl>
                   <bibl>Renate Holzschuh-Hofer , Die alte Burg (Schweizerhof) 1521-1619, in: Herbert
                      Karner (ed.), Die Wiener Hofburg 1521-1705. Baugeschichte, Funktion und
                      Etablierung als Kaiserresidenz (= Österreichische Akademie der Wissenschaften
@@ -46,7 +42,7 @@
                      Veröffentlichungen zur Kunstgeschichte (vormals Veröffentlichungen der
                      Kommission für Kunstgeschichte) 13; Artur Rosenauer [ed.], Veröffentlichungen
                      zur Bau- und Funktionsgeschichte der Wiener Hofburg 2, Vienna 2014, 80-143,
-                     esp. 80</bibl>
+                     esp. 95</bibl>
                </listBibl>
             </relatedItem>
          </notesStmt>
@@ -55,22 +51,24 @@
                <msIdentifier>
                   <settlement>Vienna</settlement>
                   <repository>AT-OEStA</repository>
-                  <idno>FHKA AHK GB 20</idno>
-                  <msName>Nebenbuch Liefergeld, Hofgesinde und Dienstleute</msName>
+                  <idno>FHKA AHK VDA Steuerbücher 582</idno>
+                  <msName>Vizedomamtshauptrechnungen, Vizedom- und Kammermeisteramtsbücher
+                     Österreich unter der Enns (Vizedom Chr. Polt)</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <locus>fol 133</locus>
-                     <author></author>
-                     <title type="supplied" resp="#rk">Nutzung des Schweizerhofs in den 1520er Jahren als Tapisserie-Depot</title>
-                     <docDate>1522</docDate>
-                     </msItem>
+                     <locus>fol 251v</locus>
+                     <author/>
+                     <title type="supplied" resp="#rk">Verlegung eines neuen Fußbodens im
+                        Appartement Ferdinands I. im September 1548</title>
+                     <docDate>1548.09</docDate>
+                  </msItem>
                </msContents>
                <history>
                   <summary>date of origin</summary>
                   <origin>
-                     <origDate notBefore="1501-01-01">1501</origDate>
-                     <origDate notAfter="1501-12-31">1501</origDate>
+                     <origDate notBefore="1548-01-01">1548</origDate>
+                     <origDate notAfter="1548-12-31">1548</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -80,16 +78,18 @@
    <text>
       <front>
          <div type="regest">
-            <p>Nutzung des <rs type="partonomy" ref="135">Schweizerhofs</rs> in den 1520er Jahren als Tapisserie-Depot.</p>
+            <p>Verlegung eines neuen Fußbodens im Appartement
+                     <persName><forename>Ferdinands</forename> I.</persName> im <rs type="partonomy"
+                  ref="135">Schweizerhof</rs> im September 1548.</p>
             <dateline>
-               <date type="begin">1522.06.29</date>
-               <date type="end">1529.12.31</date>
+               <date notBefore="1548-09-01">September 1548</date>
+               <date notAfter="1548-09-30">September 1548</date>
             </dateline>
          </div>
       </front>
       <body>
-         <pb n="fol 133"></pb>
-         <p>daz ir das gewelb in unser <rs ref="135">burgkh zu Wienn</rs>, darinn unser tapesserei ligt</p>
+         <pb n="fol 251v"/>
+         <p>"ain Poden auf dem grossen Sall gelegt"</p>
       </body>
    </text>
 </TEI>

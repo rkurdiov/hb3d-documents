@@ -6,16 +6,33 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Tagebuch Khevenhüller-Metsch</title>
-            <title type="sub">1764-1767</title>
+            <title type="main">Abschaffung der Schweizer Garde 1767</title>
+            <title type="sub">digital edition</title>
             <respStmt>
-               <resp>TEI Kodierung</resp>
-               <persName>Richard Kurdiovsky</persName>
+               <resp>Encoded following the TEI Guidelines by</resp>
+               <persName>
+                  <name type="forename">Richard</name>
+                  <name type="surname">Kurdiovsky</name>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>not yet published</p>
          </publicationStmt>
+         <notesStmt>
+            <relatedItem type="publishedIn">
+               <listBibl>
+                  <bibl>Anna Mader-Kratky, Alte Burg - bauliche Entwicklung, 1705-1835, in: Hellmut
+                     Lorenz / Anna Mader-Kratky (eds.), Die Wiener Hofburg 1705-1835. Die
+                     kaiserliche Residenz vom Barock bis zum Klassizismus (= Österreichische
+                     Akademie der Wissenschaften [ed.], Denkschriften der philosophisch-historischen
+                     Klasse 445; Werner Telesko [ed.], Veröffentlichungen zur Kunstgeschichte
+                     [vormals Veröffentlichungen der Kommission für Kunstgeschichte] 14; Artur
+                     Rosenauer [ed.], Veröffentlichungen zur Bau- und Funktionsgeschichte der Wiener
+                     Hofburg 3, Vienna 2016, 263-271, esp. 265 and footnote 1153.</bibl>
+               </listBibl>
+            </relatedItem>
+         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -39,15 +56,25 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="regest">
+            <p>Abschaffung der Schweizer Garde mit Anfang Juli 1767</p>
+            <dateline>
+               <date type="begin">1767.07.01</date>
+               <date type="emd">1767.07.10</date>
+            </dateline>
+         </div>
+      </front>
       <body>
+         <pb n="page 249"/>
          <p>[…] Mit Anfang dises Monaths wurde die neue Garde zu Fuß en fonction gesetzet, welche
             mann anstatt der abgedanckten Schweitzer sous le nom de gardes du palais aufgerichtet
-            und von lauter Unter­ Officieren componiret bat. Die <persName type="historical"
+            und von lauter Unter­Officieren componiret bat. Die <persName type="historical"
                   ><roleName>Kaiserin</roleName></persName> ware sehr hart zu bemelter Abdanckung
-            gekommen, indeme sie der sicher-und exacten Bedienung der Schweitzer so ville Jahr
+            gekommen, indeme sie der sicher und exacten Bedienung der Schweitzer so ville Jahr
             gewohnet gewesen; allein mann fande politice und ministerialiter unanständig, ihre mit
             dem verstorbenen <persName><roleName>Kaiser</roleName></persName> auf dem lothringischen
-            Fuß errichtete Capitulation zu er- neueren als worinnen verschiedenes von ihren disem
+            Fuß errichtete Capitulation zu erneueren als worinnen verschiedenes von ihren disem
             lezteren Hauß (wie es in der That sich befindet) geleisteten Diensten gesprochen wird so
             sich bekannter Massen auf das durchlauchtigste Erzhaus nicht schicket; dahero mann auch
             verschiedene Tentativa indirecte gemacht, um die anstössige Stellen der Capitulation
